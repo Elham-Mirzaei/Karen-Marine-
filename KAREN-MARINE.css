@@ -3,7 +3,8 @@
     padding: 0;
 }
 body{
-    background-color: gainsboro;
+    background-color: lightblue;
+    
 }
 header {
     top: 0;
@@ -39,8 +40,8 @@ li {
     border-radius: 20px;
 }
 #welcome {
-    font-size: 140%;
-    color: orange;
+    font-size: 180%;
+    color: rgb(212, 0, 255);
     text-align: center;
 }
 #introduction {
@@ -93,25 +94,27 @@ li {
     
 }
 
-
 #Company {
     width: 100%;
-    
     padding-bottom: 60px;
+    
 }
 #company-name {
     text-align: center;
     font-size: 200%; 
     padding-top: 70px;
+    
 }
 .cmpany-prfile {
     padding-top: 30px;
     padding-left: 100px;
     font-size: 150%;
+    
 }
 .company-detail {
     padding-top: 10px;
     margin: 10px 30px;
+    
 }
 #Services {
     width: 100%;
