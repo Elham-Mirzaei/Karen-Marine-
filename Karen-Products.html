@@ -32,17 +32,60 @@
         </header>
 
 <!--Creating a range of products-->
-<section id="Products">
+<section>
         <p id="products">We provide below product groups</p>
 
-        <div>
-            <p class= "product-slides"><strong>Air Compressor</strong> {MAN B&W -- IHI -- Mitsubishi -- Wartsila}<br><br> <img class="product-img" src="photo-compressor.jpg"></p>
-            <p class= "product-slides"><strong>Deck Crane</strong> <br><br> <img class="product-img" src="photo-crane.jpg"></p>
-            <p class= "product-slides"><strong>Filter</strong> {J.P.Sauer & SOHN -- Wartsila -- Yanmar --Sabroe -- Volvo -- Sulzer}<br><br> <img class="product-img" src="photo-filter.jpg"></p>
-            <p class= "product-slides"><strong>Heat Exchanger</strong> <br><br> <img class="product-img" src="photo-heater exchanger.jpg"></p>
-            <p class= "product-slides"><strong>Pump</strong> {Scania -- Leistritz Pumpen GmbH -- Sabroe -- Wartsila -- IHI -- Westfalia -- Yanmar -- Alfalaval -- MacGregor -- Volvo -- J.P.sauer & SOHN}<br><br> <img class="product-img" src="photo-pump.jpg"></p>
-            <p class= "product-slides"><strong>Turbolader</strong> {Volvo -- SKL -- Abb}<br><br> <img class="product-img" src="photo-turbolader.jpg"></p>
-           </div>
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+                <div class="numbertext">1 / 6</div>
+                <img src="photo-compressor.jpg" style="width:40vw">
+                <div class="text">Air Compressor</div>
+            </div>
+
+            <div class="mySlides fade">
+                    <div class="numbertext">2 / 6</div>
+                    <img src="photo-crane.jpg" style="width:40vw">
+                    <div class="text">Deck Crane</div>
+            </div>
+
+            <div class="mySlides fade">
+                    <div class="numbertext">3 / 6</div>
+                    <img src="photo-filter.jpg" style="width:40vw">
+                    <div class="text">Filter</div>
+            </div>
+
+            <div class="mySlides fade">
+                    <div class="numbertext">4 / 6</div>
+                    <img src="photo-heater exchanger.jpg" style="width:40vw">
+                    <div class="text">Heat Exchanger</div>
+            </div>
+
+            <div class="mySlides fade">
+                    <div class="numbertext">5 / 6</div>
+                    <img src="photo-pump.jpg" style="width:40vw">
+                    <div class="text">Pump</div>
+            </div>
+
+            <div class="mySlides fade">
+                    <div class="numbertext">5 / 6</div>
+                    <img src="photo-turbolader.jpg" style="width:40vw">
+                    <div class="text">Turboloader</div>
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+        </div>
+        <br>
+
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span> 
+            <span class="dot" onclick="currentSlide(2)"></span> 
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
+            <span class="dot" onclick="currentSlide(6)"></span> 
+        </div>
 
         <script src="Karen-Products.js"></script>
 
