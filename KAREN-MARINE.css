@@ -158,7 +158,9 @@ nav {
     height: 60vh;
     max-width: 60%;
     max-Height: 60vh;
-    margin: 15% auto;
+    position: relative;
+    margin-top: 15%;
+    margin-left: 13%;
     border-radius: 20px 20px 20px 20px;
 }
 
