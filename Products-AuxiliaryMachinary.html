@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--This part is same as KAREN-MARINE.html file-->
+        <link rel="stylesheet" href="KAREN-MARINE.css">
+
+        <!--Making the website responsive-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+    </head>
+
+    <body>
+        
+        <header>
+    
+            <nav>
+
+                <!--This part is same as KAREN-MARINE.html file-->
+                <ul class="nav">
+                    <li><a href="index.html#Home">Home</a></li>
+                    <li><a href="Karen-Company.html">Company</a></li>
+                    <li><a href="Karen-Services.html">Services</a></li>
+                    <li><a href="Karen-Products.html">Products</a>
+                        <ul>
+                            <li><a href="Products-DieselEngines.html">Products-Diesel Engines</a></li>
+                            <li><a href="Products-AuxiliaryMachinary.html">Products-Ausiliary Machinary</a>
+                                <ul>
+                                    <li><a href="Products-Compressor.html">Products-Compressor</a></li>
+                                    <li><a href="Products-Filter.html">Products-Filter</a></li>
+                                    <li><a href="Products-Pump.html">Products-Pump</a></li>
+                                    <li><a href="Products-Turbocharger.html">Products-Turbocharger</a></li>
+                                    <li><a href="Products-Sensor.html">Products-Sensor</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="Products-ShaftSealEquipment.html">Products-Shaft Seal Equipment</a></li>
+                            <li><a href="Products-DeckMachinary.html">Products-Deck Machinary</a></li>
+                            <li><a href="Products-NavigationSystems.html">Products-Navigation System</a>
+                                <ul>
+                                    <li><a href="Products-ControlSystem.html">Products-Control System</a></li>
+                                    <li><a href="Products-PLC.html">Products-PLC</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="Karen-FAQ.html">FAQ</a></li>
+                    <li><a href="Karen-Contacts.html">Contacts</a></li>
+                </ul>
+            </nav>
+            
+        </header>
+
+        <img SRC="logo.png" id="logo" ALT="logo" WIDTH=60 HEIGHT=60>
+
+<!--Creating a range of products-->
+<section id="PRODUCTS">
+        <p id="products">We provide below product groups</p>
+
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+                <div class="numbertext">1 / 5</div>
+                <img class="products" src="photo-compressor.jpg">
+                <div class="text">Compressor</div>
+            </div>
+
+            <div class="mySlides fade">
+                    <div class="numbertext">2 / 5</div>
+                    <img class="products" src="photo-filter.jpg">
+                    <div class="text">Filter</div>
+            </div>
+
+            <div class="mySlides fade">
+                    <div class="numbertext">3 / 5</div>
+                    <img class="products" src="photo-pump.jpg">
+                    <div class="text">Pump</div>
+            </div>
+
+            <div class="mySlides fade">
+                    <div class="numbertext">4 / 5</div>
+                    <img class="products" src="photo-turbocharger.jpg">
+                    <div class="text">Turbocharger</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">5 / 5</div>
+                <img class="products" src="photo-sensor.jpg">
+                <div class="text">Sensor</div>
+        </div>
+
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+        </div>
+        <br>
+
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span> 
+            <span class="dot" onclick="currentSlide(2)"></span> 
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
+        </div>
+
+        <script src="Karen-Products.js"></script>
+
+        
+    </section>
+
+    </body>
+    </html>
