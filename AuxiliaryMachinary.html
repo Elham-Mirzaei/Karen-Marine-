@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
     <head>
-
         <!--This part is same as KAREN-MARINE.html file-->
         <link rel="stylesheet" href="KAREN-MARINE.css">
 
@@ -13,7 +12,7 @@
     <body>
         
         <header>
-            
+    
             <nav>
 
                 <!--This part is same as KAREN-MARINE.html file-->
@@ -47,16 +46,64 @@
                     <li><a href="Karen-Contacts.html">Contacts</a></li>
                 </ul>
             </nav>
+            
         </header>
 
-        <!--Clreatin logo for pages-->
         <img SRC="logo.png" id="logo" ALT="logo" WIDTH=60 HEIGHT=60>
 
-<!--This page is to introduce the sales department-->
-<section id="Sales">
-        <p id="sales">Sales department</p>
+<!--Creating a range of products-->
+<section id="PRODUCTS">
+        <p id="products">We provide below product groups</p>
+
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+                <div class="numbertext">1 / 5</div>
+                <img class="products" src="photo-compressor.jpg">
+                <div class="text">Compressor</div>
+            </div>
+
+            <div class="mySlides fade">
+                    <div class="numbertext">2 / 5</div>
+                    <img class="products" src="photo-filter.jpg">
+                    <div class="text">Filter</div>
+            </div>
+
+            <div class="mySlides fade">
+                    <div class="numbertext">3 / 5</div>
+                    <img class="products" src="photo-pump.jpg">
+                    <div class="text">Pump</div>
+            </div>
+
+            <div class="mySlides fade">
+                    <div class="numbertext">4 / 5</div>
+                    <img class="products" src="photo-turbocharger.jpg">
+                    <div class="text">Turbocharger</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">5 / 5</div>
+                <img class="products" src="photo-sensor.jpg">
+                <div class="text">Sensor</div>
+        </div>
+
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+        </div>
+        <br>
+
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span> 
+            <span class="dot" onclick="currentSlide(2)"></span> 
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
+        </div>
+
+        <script src="Karen-Products.js"></script>
+
+        
     </section>
 
     </body>
     </html>
-    
