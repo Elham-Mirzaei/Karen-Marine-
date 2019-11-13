@@ -245,7 +245,7 @@ nav {
     margin: 10px 30px;
 }
 
-.products {
+.karen-products {
   width: 100%;
   padding-bottom: 100%;
 }
@@ -282,6 +282,27 @@ nav {
   padding-top: 3%;
   padding-left: 5%;
 }
+
+.shaftSealEquipment {
+  width: 100%;
+  padding-bottom: 100%;
+}
+
+.deckMachinary {
+  width: 100%;
+  padding-bottom: 100%;
+}
+
+.controlSystem {
+  width: 100%;
+  padding-bottom: 100%;
+}
+
+.PLC {
+  width: 100%;
+  padding-bottom: 100%;
+}
+
 
 /* Slideshow container */
 .slideshow-container {
