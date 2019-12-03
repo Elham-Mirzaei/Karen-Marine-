@@ -2,13 +2,13 @@
     margin: 0 auto;
     padding: 0;
 }
-body{
+/*body{
     background-color: rgb(204, 226, 231);
     -moz-box-shadow:    inset 0 0 20px #000000;
    -webkit-box-shadow: inset 0 0 20px #000000;
    box-shadow:         inset 0 0 20px #000000;
    margin: 0 auto;
-}
+}*/
 header {
     top: 0;
     width: 85%;
@@ -22,7 +22,7 @@ header {
 #logo {
   float: left;
   margin-left: 10px;
-  padding-top: 50px;
+  margin-top: 50px;
   width: 200px;
   height: 200px;
 }
@@ -161,21 +161,23 @@ nav {
 .Home-slides {
     width: 40%;
     height: auto;
-    margin-top: 15%;
-    margin-left: 25%;
+    margin: auto;
     border-radius: 20px 20px 20px 20px;
 }
 
 #welcome {
     font-size: 160%;
     color: rgb(212, 0, 255);
-    float: left;
+    padding-top: 20%;
+    padding-bottom: 3%;
+    text-align: center;
     font-family:‌ Arial, Helvetica, sans-serif; 
 }
 #introduction {
     font-size: 100%;
     color: blueviolet;
-    float: left;
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
 }
 
 .grid-container {
@@ -465,12 +467,46 @@ nav {
 #contacts {
   width: 100%;
   padding-bottom: 100%;
+  padding-top:20%;
 }
 
-#map {
-  width: 900px;
-  height: 450px;
-  margin: auto;
+.contactDetails {
+  font-family:‌ Arial, Helvetica, sans-serif;
+  font-size: 160%;
+  color: rgb(0, 140, 255);
+  text-align: center;
+  padding-bottom: 1%;
+}
+
+.addressDetailas {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 120%;
+  color: rgb(0, 140, 255);
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.karenAddress {
+  color: rgb(187, 112, 216);
+  font-family:‌ Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: 150%;
+}
+
+.karenWarehouse {
+  color: rgb(216, 136, 112);
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  font-size: 120%;
+}
+
+.map {
+  display: block;
+  width: 800px;
+  height: 350px;
+  border-radius: 20px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 @media only screen and (max-width: 1639px) {
@@ -478,8 +514,7 @@ nav {
 .Home-slides {
   width: 40vw;
   height: auto;
-  margin-top: 15%;
-  margin-left: 16.5%;
+  margin: auto;
   border-radius: 20px 20px 20px 20px;
 }
 
@@ -495,10 +530,43 @@ nav {
   padding-top: 70px;
 }
 
-#contacts {
-  margin-left: 25%;
-  font-size: 150%; 
-  padding-top: 100px;
+.contactDetails {
+  font-family:‌ Arial, Helvetica, sans-serif;
+  font-size: 155%;
+  color: rgb(0, 140, 255);
+  text-align: center;
+  padding-bottom: 1%;
+}
+
+.addressDetailas {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 115%;
+  color: rgb(0, 140, 255);
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.karenAddress {
+  color: rgb(187, 112, 216);
+  font-family:‌ Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: 145%;
+}
+
+.karenWarehouse {
+  color: rgb(216, 136, 112);
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  font-size: 115%;
+}
+
+.map {
+  display: block;
+  width: 700px;
+  height: 350px;
+  border-radius: 20px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 }
@@ -509,8 +577,7 @@ nav {
   .Home-slides {
     width: 40vw;
     height: auto;
-    margin-top: 15%;
-    margin-left: 15%;
+    margin: auto;
     border-radius: 20px 20px 20px 20px;
   }
 
@@ -568,12 +635,46 @@ nav {
     font-size: 180%; 
     padding-top: 100px;
   }
-  
-  #contacts {
-    margin-left: 24.5%;
-    font-size: 140%; 
-    padding-top: 100px;
+
+  .contactDetails {
+    font-family:‌ Arial, Helvetica, sans-serif;
+    font-size: 150%;
+    color: rgb(0, 140, 255);
+    text-align: center;
+    padding-bottom: 1%;
   }
+  
+  .addressDetailas {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 110%;
+    color: rgb(0, 140, 255);
+    text-align: center;
+    padding-bottom: 3%;
+  }
+  
+  .karenAddress {
+    color: rgb(187, 112, 216);
+    font-family:‌ Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 140%;
+  }
+  
+  .karenWarehouse {
+    color: rgb(216, 136, 112);
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
+    font-size: 110%;
+  }
+
+  .map {
+    display: block;
+    width: 650px;
+    height: 350px;
+    border-radius: 20px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
 }
 
 
@@ -582,8 +683,7 @@ nav {
   .Home-slides {
     width: 40vw;
     height: auto;
-    margin-top: 17%;
-    margin-left: 10%;
+    margin: auto;
     border-radius: 20px 20px 20px 20px;
   }
 
@@ -641,11 +741,45 @@ nav {
     font-size: 170%; 
     padding-top: 100px;
   }
+
+  .contactDetails {
+    font-family:‌ Arial, Helvetica, sans-serif;
+    font-size: 145%;
+    color: rgb(0, 140, 255);
+    text-align: center;
+    padding-bottom: 1%;
+    padding-top: 5%;
+  }
   
-  #contacts {
-    margin-left: 23%;
-    font-size: 130%; 
-    padding-top: 100px;
+  .addressDetailas {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 105%;
+    color: rgb(0, 140, 255);
+    text-align: center;
+    padding-bottom: 3%;
+  }
+  
+  .karenAddress {
+    color: rgb(187, 112, 216);
+    font-family:‌ Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 135%;
+  }
+  
+  .karenWarehouse {
+    color: rgb(216, 136, 112);
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
+    font-size: 105%;
+  }
+
+  .map {
+    display: block;
+    width: 600px;
+    height: 350px;
+    border-radius: 20px;
+    margin-right: auto;
+    margin-left: auto;
   }
 
 }
@@ -655,8 +789,7 @@ nav {
   .Home-slides {
     width: 40vw;
     height: auto;
-    margin-top: 33%;
-    margin-left: 9%;
+    margin: auto;
     border-radius: 20px 20px 20px 20px;
   }
 
@@ -715,10 +848,44 @@ nav {
     padding-top: 100px;
   }
 
-  #contacts {
-    margin-left: 18%;
-    font-size: 120%; 
-    padding-top: 250px;
+  .contactDetails {
+    font-family:‌ Arial, Helvetica, sans-serif;
+    font-size: 140%;
+    color: rgb(0, 140, 255);
+    text-align: center;
+    padding-bottom: 1%;
+    padding-top: 10%;
+  }
+  
+  .addressDetailas {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 100%;
+    color: rgb(0, 140, 255);
+    text-align: center;
+    padding-bottom: 3%;
+  }
+  
+  .karenAddress {
+    color: rgb(187, 112, 216);
+    font-family:‌ Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 130%;
+  }
+  
+  .karenWarehouse {
+    color: rgb(216, 136, 112);
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
+    font-size: 100%;
+  }
+
+  .map {
+    display: block;
+    width: 550px;
+    height: 350px;
+    border-radius: 20px;
+    margin-right: auto;
+    margin-left: auto;
   }
 
 }
@@ -747,9 +914,47 @@ nav {
   .Home-slides {
     width: 40vw;
     height: auto;
-    margin-top: 33%;
-    margin-left: 7%;
+    margin: auto;
     border-radius: 20px 20px 20px 20px;
+  }
+
+  .contactDetails {
+    font-family:‌ Arial, Helvetica, sans-serif;
+    font-size: 135%;
+    color: rgb(0, 140, 255);
+    text-align: center;
+    padding-bottom: 1%;
+  }
+  
+  .addressDetailas {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 95%;
+    color: rgb(0, 140, 255);
+    text-align: center;
+    padding-bottom: 3%;
+  }
+  
+  .karenAddress {
+    color: rgb(187, 112, 216);
+    font-family:‌ Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 125%;
+  }
+  
+  .karenWarehouse {
+    color: rgb(216, 136, 112);
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
+    font-size: 95%;
+  }
+
+  .map {
+    display: block;
+    width: 500px;
+    height: 350px;
+    border-radius: 20px;
+    margin-right: auto;
+    margin-left: auto;
   }
   
 }
@@ -777,8 +982,7 @@ nav {
   .Home-slides {
     width: 40vw;
     height: auto;
-    margin-top: 38%;
-    margin-left: 4%;
+    margin: auto;
     border-radius: 20px 20px 20px 20px;
   }
 
@@ -835,10 +1039,44 @@ nav {
     padding-top: 100px;
   }
 
-  #contacts {
-    margin-left: 12%;
-    font-size: 120%; 
-    padding-top: 250px;
+  .contactDetails {
+    font-family:‌ Arial, Helvetica, sans-serif;
+    font-size: 130%;
+    color: rgb(0, 140, 255);
+    text-align: center;
+    padding-bottom: 1%;
+    padding-top: 15%;
+  }
+  
+  .addressDetailas {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 90%;
+    color: rgb(0, 140, 255);
+    text-align: center;
+    padding-bottom: 3%;
+  }
+  
+  .karenAddress {
+    color: rgb(187, 112, 216);
+    font-family:‌ Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 120%;
+  }
+  
+  .karenWarehouse {
+    color: rgb(216, 136, 112);
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
+    font-size: 90%;
+  }
+
+  .map {
+    display: block;
+    width: 450px;
+    height: 350px;
+    border-radius: 20px;
+    margin-right: auto;
+    margin-left: auto;
   }
 
 }
@@ -866,8 +1104,7 @@ nav {
   .Home-slides {
     width: 40vw;
     height: auto;
-    margin-top: 38%;
-    margin-left: 2%;
+    margin: auto;
     border-radius: 20px 20px 20px 20px;
   }
 
@@ -924,11 +1161,45 @@ nav {
     padding-top: 100px;
   }
 
-  #contacts {
-    margin-left: 10.5%;
-    font-size: 115%; 
-    padding-top: 250px;
+  .contactDetails {
+    font-family:‌ Arial, Helvetica, sans-serif;
+    font-size: 125%;
+    color: rgb(0, 140, 255);
+    text-align: center;
+    padding-bottom: 1%;
   }
+  
+  .addressDetailas {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 85%;
+    color: rgb(0, 140, 255);
+    text-align: center;
+    padding-bottom: 3%;
+  }
+  
+  .karenAddress {
+    color: rgb(187, 112, 216);
+    font-family:‌ Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 115%;
+  }
+  
+  .karenWarehouse {
+    color: rgb(216, 136, 112);
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
+    font-size: 85%;
+  }
+
+  .map {
+    display: block;
+    width: 400px;
+    height: 350px;
+    border-radius: 20px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
 }
 
 @media only screen and (max-width: 770px) {
@@ -944,6 +1215,45 @@ nav {
     letter-spacing: 2px;
     text-shadow: 0 -1px 0 #000;
     position: relative;
+  }
+
+  .contactDetails {
+    font-family:‌ Arial, Helvetica, sans-serif;
+    font-size: 120%;
+    color: rgb(0, 140, 255);
+    text-align: center;
+    padding-bottom: 1%;
+  }
+  
+  .addressDetailas {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 80%;
+    color: rgb(0, 140, 255);
+    text-align: center;
+    padding-bottom: 3%;
+  }
+  
+  .karenAddress {
+    color: rgb(187, 112, 216);
+    font-family:‌ Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 110%;
+  }
+  
+  .karenWarehouse {
+    color: rgb(216, 136, 112);
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
+    font-size: 80%;
+  }
+
+  .map {
+    display: block;
+    width: 350px;
+    height: 350px;
+    border-radius: 20px;
+    margin-right: auto;
+    margin-left: auto;
   }
 
 }
@@ -971,8 +1281,7 @@ nav {
   .Home-slides {
     width: 40vw;
     height: auto;
-    margin-top: 44%;
-    margin-left: -3%;
+    margin: auto;
     border-radius: 20px 20px 20px 20px;
   }
 
@@ -1031,11 +1340,46 @@ nav {
     padding-top: 100px;
   }
 
-  #contacts {
-    margin-left: 9%;
-    font-size: 110%; 
-    padding-top: 250px;
+  .contactDetails {
+    font-family:‌ Arial, Helvetica, sans-serif;
+    font-size: 115%;
+    color: rgb(0, 140, 255);
+    text-align: center;
+    padding-bottom: 1%;
+    padding-top: 25%;
   }
+  
+  .addressDetailas {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 75%;
+    color: rgb(0, 140, 255);
+    text-align: center;
+    padding-bottom: 3%;
+  }
+  
+  .karenAddress {
+    color: rgb(187, 112, 216);
+    font-family:‌ Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 105%;
+  }
+  
+  .karenWarehouse {
+    color: rgb(216, 136, 112);
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
+    font-size: 75%;
+  }
+
+  .map {
+    display: block;
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
 }
 
 @media only screen and (max-width: 511px) {
@@ -1061,8 +1405,7 @@ nav {
   .Home-slides {
     width: 40vw;
     height: auto;
-    margin-top: 50%;
-    margin-left: -3%;
+    margin: auto;
     border-radius: 20px 20px 20px 20px;
   }
 
@@ -1121,11 +1464,46 @@ nav {
     padding-top: 100px;
   }
 
-  #contacts {
-    margin-left: 9%;
-    font-size: 110%; 
-    padding-top: 250px;
+  .contactDetails {
+    font-family:‌ Arial, Helvetica, sans-serif;
+    font-size: 110%;
+    color: rgb(0, 140, 255);
+    text-align: center;
+    padding-bottom: 1%;
+    padding-top: 30%;
   }
+  
+  .addressDetailas {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 70%;
+    color: rgb(0, 140, 255);
+    text-align: center;
+    padding-bottom: 3%;
+  }
+  
+  .karenAddress {
+    color: rgb(187, 112, 216);
+    font-family:‌ Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 100%;
+  }
+  
+  .karenWarehouse {
+    color: rgb(216, 136, 112);
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
+    font-size: 70%;
+  }
+
+  .map {
+    display: block;
+    width: 250px;
+    height: 250px;
+    border-radius: 20px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
 }
 
 @media only screen and (max-width: 491px) {
@@ -1151,8 +1529,7 @@ nav {
   .Home-slides {
     width: 40vw;
     height: auto;
-    margin-top: 60%;
-    margin-left: -14%;
+    margin: auto;
     border-radius: 20px 20px 20px 20px;
   }
 
@@ -1211,9 +1588,44 @@ nav {
     padding-top: 250px;
   }
 
-  #contacts {
-    margin-left: 5%;
-    font-size: 85%; 
-    padding-top: 250px;
+  .contactDetails {
+    font-family:‌ Arial, Helvetica, sans-serif;
+    font-size: 105%;
+    color: rgb(0, 140, 255);
+    text-align: center;
+    padding-bottom: 1%;
+    padding-top: 35%;
   }
+  
+  .addressDetailas {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 65%;
+    color: rgb(0, 140, 255);
+    text-align: center;
+    padding-bottom: 3%;
+  }
+  
+  .karenAddress {
+    color: rgb(187, 112, 216);
+    font-family:‌ Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 95%;
+  }
+  
+  .karenWarehouse {
+    color: rgb(216, 136, 112);
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
+    font-size: 65%;
+  }
+
+  .map {
+    display: block;
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
 }
