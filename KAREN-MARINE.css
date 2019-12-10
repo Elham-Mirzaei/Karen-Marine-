@@ -2,13 +2,9 @@
     margin: 0 auto;
     padding: 0;
 }
-/*body{
+body{
     background-color: rgb(204, 226, 231);
-    -moz-box-shadow:    inset 0 0 20px #000000;
-   -webkit-box-shadow: inset 0 0 20px #000000;
-   box-shadow:         inset 0 0 20px #000000;
-   margin: 0 auto;
-}*/
+}
 header {
     top: 0;
     width: 85%;
@@ -267,7 +263,7 @@ nav {
 
 .ulProducts {
   padding-left: 15%;
-  padding-top: 15%;
+  padding-top: 5%;
 }
 
 .liProducts {
@@ -510,7 +506,7 @@ nav {
 }
 
 @media only screen and (max-width: 1639px) {
-  
+
 .Home-slides {
   width: 40vw;
   height: auto;
@@ -574,6 +570,15 @@ nav {
 
 @media only screen and (max-width: 1461px) {
 
+  #welcome {
+    font-size: 160%;
+    color: rgb(212, 0, 255);
+    padding-top: 25%;
+    padding-bottom: 3%;
+    text-align: center;
+    font-family:‌ Arial, Helvetica, sans-serif; 
+}
+
   .Home-slides {
     width: 40vw;
     height: auto;
@@ -628,6 +633,11 @@ nav {
     margin-left: 31%;
     font-size: 180%; 
     padding-top: 130px;
+  }
+
+  .productGroup {
+    padding-top: 25%; 
+    padding-left: 15%;
   }
   
   #faq {
@@ -786,6 +796,14 @@ nav {
 
 @media only screen and (max-width: 1000px) {
 
+  #welcome {
+    font-size: 150%;
+    color: rgb(212, 0, 255);
+    padding-top: 35%;
+    padding-bottom: 3%;
+    text-align: center;
+    font-family:‌ Arial, Helvetica, sans-serif; 
+}
   .Home-slides {
     width: 40vw;
     height: auto;
@@ -911,6 +929,15 @@ nav {
     position: relative;
   }
 
+  #welcome {
+    font-size: 130%;
+    color: rgb(212, 0, 255);
+    padding-top: 40%;
+    padding-bottom: 3%;
+    text-align: center;
+    font-family:‌ Arial, Helvetica, sans-serif; 
+}
+
   .Home-slides {
     width: 40vw;
     height: auto;
@@ -1031,6 +1058,11 @@ nav {
     margin-left: 27%;
     font-size: 145%; 
     padding-top: 130px;
+  }
+
+  .productGroup {
+    padding-top: 45%; 
+    padding-left: 15%;
   }
   
   #faq {
@@ -1278,6 +1310,15 @@ nav {
     text-shadow: 0 -1px 0 #000;
     position: relative;
   }
+
+  #welcome {
+    font-size: 125%;
+    color: rgb(212, 0, 255);
+    padding-top: 50%;
+    padding-bottom: 3%;
+    text-align: center;
+    font-family:‌ Arial, Helvetica, sans-serif; 
+}
   .Home-slides {
     width: 40vw;
     height: auto;
@@ -1402,6 +1443,15 @@ nav {
     text-shadow: 0 -1px 0 #000;
     position: relative;
   }
+
+  #welcome {
+    font-size: 115%;
+    color: rgb(212, 0, 255);
+    padding-top: 55%;
+    padding-bottom: 3%;
+    text-align: center;
+    font-family:‌ Arial, Helvetica, sans-serif; 
+}
   .Home-slides {
     width: 40vw;
     height: auto;
@@ -1456,6 +1506,11 @@ nav {
     margin-left: 27%;
     font-size: 120%; 
     padding-top: 130px;
+  }
+
+  .productGroup {
+    padding-top: 55%; 
+    padding-left: 15%;
   }
   
   #faq {
@@ -1580,6 +1635,11 @@ nav {
     margin-left: 15%;
     font-size: 110%; 
     padding-top: 250px;
+  }
+
+  .productGroup {
+    padding-top: 70%; 
+    padding-left: 15%;
   }
   
   #faq {
